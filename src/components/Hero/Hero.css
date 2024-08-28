@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-container {
+    height: 100vh; /* Full screen height */
+    width: 100%; /* Full screen width */
+    background-image: url('../../Assets/Hero.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    position: relative; /* Establish positioning context */
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+    color: white; /* Text color */
+    text-align: center;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-top: 200px;
+  }
+
+  .company-name{
+    color:orange;
+  }
+
+  .description{
+    width:600px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+
+  /* App.css */
+.dynamic-text-container {
+    font-size: 2rem; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dynamic-word {
+    display: inline-block;
+    transition: opacity 0.5s ease-in-out;
+  }
+  

@@ -1,0 +1,74 @@
+.testinomial-container{
+    margin: 100px 150px;
+}
+
+.testinomial-title{
+    color: #2346B1;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+#us{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color:#FF7C01;
+}
+
+.testinomial-info{
+    color: #5E5E5E;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: 50px;
+    width:40%;
+}
+
+.seprator{
+    height: 0.1px; 
+    background-color: #5E5E5E; 
+    border: none;
+    width: 100%; 
+}
+
+.banner-title{
+    color: #2346B1;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.banner-info{
+    color: #5E5E5E;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+
+.banner-1 , .banner-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+}
+
+.testinomial-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+@media (max-width:800px){
+    .testinomial-bottom-content{
+        flex-direction:column
+    }
+    
+}

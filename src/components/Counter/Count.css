@@ -1,0 +1,60 @@
+.counter-section {
+    background-color: #F5F7FA;
+    margin-top: 10px;
+    padding: 60px 0;
+   
+  }
+  
+  .counter-content {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+  }
+  
+  .counter-header {
+    color: #2346B1;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+  }
+  
+  .counter-subtext {
+    color: #5E5E5E;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: center;
+  }
+  
+  .counter-grid {
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .counter-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .counter-number {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    font-family: "Montserrat", Sans-serif;
+  }
+  
+  .counter-label {
+    font-size: 18px;
+    color: #717171;
+    font-family: "Montserrat", Sans-serif;
+  }
+  

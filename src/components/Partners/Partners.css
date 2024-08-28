@@ -1,0 +1,29 @@
+
+.partner-container{
+  width:100%;
+  position: relative;
+  top:-50px;
+  
+}
+.partner-content{
+  margin: 10px 40px;
+  padding:20px 30px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.partners-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.partner{
+  width:200px;
+}
+
+.partner-heading{
+  text-align: center;
+  font-weight: 900;
+  font-size: 38px;
+  margin-bottom: 5px;
+}
